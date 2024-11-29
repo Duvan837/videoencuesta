@@ -18,7 +18,7 @@ body {
     background: #fff;
     padding: 30px 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(32, 114, 221, 0.2);
     max-width: 500px;
     width: 100%;
   }
@@ -51,7 +51,7 @@ body {
   .input-element textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #5ae5f5;
+    border: 1px solid #81f55a;
     border-radius: 5px;
     font-size: 14px;
   }
