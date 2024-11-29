@@ -1,0 +1,104 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center; /* Centra todo el texto dentro del formulario */
+  }
+  
+  /* Container Styles */
+  #survey-form {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  #title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Input Element Styles */
+  .input-element {
+    margin-bottom: 20px;
+  }
+  
+  .input-element label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .input-element input,
+  .input-element select,
+  .input-element textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5ae5f5;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .input-element input:focus,
+  .input-element select:focus,
+  .input-element textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .input-element textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .input-element div {
+    margin-bottom: 8px;
+  }
+  
+  /* Radio and Checkbox Styles */
+  .input-element input[type="radio"],
+  .input-element input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .input-element label input {
+    vertical-align: middle;
+  }
+  
+  /* Button Styles */
+  #submit {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submit:hover {
+    background-color: #0056b3;
+  }
+  
